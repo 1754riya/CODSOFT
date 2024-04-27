@@ -21,6 +21,7 @@ void displayBoard() {
 
 int main() {
     int player, choice;
+    cout<<"Enter number of player 1 or 2 :"<<endl;
     cin>>player;
 
     char mark;
@@ -65,6 +66,11 @@ int main() {
             cout << "Invalid move!";
             player--;
         }
+        // Switch player
+            if(player == 1)
+            player=2;
+            else
+            player=1;
 
         gameover = false;
         
