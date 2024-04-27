@@ -1,3 +1,3 @@
 # CODSOFT
-A list of tasks by Codsodtinternship.
+A list of tasks by Codsoft internship.
 C++
